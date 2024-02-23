@@ -39,3 +39,7 @@
 h1{
     margin: 20px;
 }
+
+.header-index{
+    align-items: center;
+}
