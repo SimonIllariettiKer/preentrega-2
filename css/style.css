@@ -161,8 +161,20 @@ h1 {
     width: 200px;
 }
 
+
+.div-torneo{
+    text-align: left;
+}
+
 .campeones-all-valley{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campeones-all-valley img{
+    width: 100px;
+    height: 100px;
 }
 
 .li-lawrence{
