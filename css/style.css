@@ -56,11 +56,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
 }
 
 .img-principal-index {
-    border: 3px gold solid;
     width: 80%;
     height: 600px;
     overflow: hidden;
@@ -147,14 +145,24 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: green;
     margin-top: 75px;
     margin-bottom: 75px;
+    height: 200px;
+}
+
+.main-all-valley img{
+    height: 100px;
+    width: 200px;
 }
 
 .videos video{
     height: 100px;
     width: 200px;
+}
+
+.campeones-all-valley{
+    background-color: orange;
 }
 
 /* footer */
