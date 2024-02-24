@@ -1,62 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Nav */
 
-.navbar{
+.navbar {
     height: 110px;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     background-color: orange;
 }
 
-.navbar div{
-    justify-content:right;
+.navbar div {
+    justify-content: right;
 }
 
-.nav-ul{
+.nav-ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
- }
- 
- .nav-ul a{
-     color: aliceblue;
+}
+
+.nav-ul a {
+    color: aliceblue;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px;
-    
+
 }
 
-.img-logo{
+.img-logo {
     height: 100px;
     width: 100px;
-    margin:10px;
+    margin: 10px;
 }
 
 /* Header Index*/
 
 
-h1{
-    margin: 20px;
+h1 {
+    margin: 50px 0 50px 0;
     text-align: center;
-} 
-
-.header-index{
+}
+.h1{
     background-color: orange;
+    margin: 0 0 0 0;
+}
+
+.header-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.img-principal-index {
+    border: 3px gold solid;
+    width: 80%;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.main-index {
+    margin: 20px;
+    padding: 0 0 0 0;
+    justify-content: center;
+    width: 819.6px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.sec-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: orange;
+}
+
+.grilla {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows:repeat(2, 1fr);
+    height: 2fr;
+    width: 800px;
+    grid-template-areas:
+        "header header section"
+        "article aside aside"
+    ;
+}
+
+.grilla header {
+    grid-area: header;
+    width: 600px;
+}
+
+.grilla section {
+    grid-area: section;
+    width: 300px;
+}
+
+.grilla article {
+    grid-area: article;
+    width: 300px;
+}
+
+.grilla aside {
+    grid-area: aside;
+    width: 600px;
+}
+
+.grilla header img {
+    width: 600px;
+    height: 200px;
+}
+
+.grilla section img {
+    width: 300px;
+    height: 200px;
+}
+
+.grilla article img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.grilla aside img {
+    width: 560px;
+    height: 200px;
 }
 
 /* footer */
 
-footer{
-    background-color: orange;
+footer {
+    background-color: rgb(222, 179, 8);
     align-items: center;
     text-align: center;
 }
 
-.img-footer{
+.img-footer {
     width: 50px;
     height: 50px;
 }
-
