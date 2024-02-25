@@ -294,6 +294,88 @@ h1 {
     padding: 15px 15px 15px 15px;
 }
 
+/* Dojos */
+
+.main-dojos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-dojos h3{
+    margin-top: 32px;
+}
+
+.main-dojos .section-cobrakai-dojo{
+    width: 30%;
+    height: 1000px;
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    border: yellow 4px solid;
+    display: block;
+    justify-content: center;
+}
+
+.main-dojos .section-miyagi-do-dojo{
+    width: 30%;
+    height: 1000px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    color: orange;
+    border: orange 4px solid;
+    display: block;
+    justify-content: center;
+}
+
+.main-dojos .section-eagle-fang-dojo{
+    width: 30%;
+    height: 1000px;
+    margin: 20px;
+    text-align: center;
+    background-color: red;
+    color: black;
+    border: black 4px solid;
+    display: block;
+    justify-content: center;
+}
+
+.main-dojos .section-cobrakai-dojo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.main-dojos .section-miyagi-do-dojo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.main-dojos .section-eagle-fang-dojo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    
+}
+
+.ul-eaglefang li{
+    list-style: none;
+}
+
+.ul-cobrakai li{
+    list-style: none;
+}
+
+.ul-miyagido li{
+    list-style: none;
+}
+
+
 /* footer */
 
 footer {
