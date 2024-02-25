@@ -256,6 +256,11 @@ h1 {
     justify-content: center;
 }
 
+.grilla-personajes img{
+   width: 80px;
+   height: 80px;
+}
+
 .eagle-fang-theme{
     background-color: red;
     border: 3px solid black;
