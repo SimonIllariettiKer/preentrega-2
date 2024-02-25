@@ -241,7 +241,58 @@ h1 {
     padding: 10px;
 }
 
+/* Personajes */
+.main-personajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grilla-personajes{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+}
 
+.eagle-fang-theme{
+    background-color: red;
+    border: 3px solid black;
+    color: black;
+    width: 200px;
+    height: 200px;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+}
+
+.cobrakai-theme{
+    color: yellow;
+    background-color: black;
+    border: 3px solid yellow;
+    width: 200px;
+    height: 200px;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+}
+
+.miyagi-do-theme{
+    background-color: white;
+    color: orange;
+    border: 3px solid orange;
+    width: 200px;
+    height: 200px;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+}
+
+.nothing{
+    background-color: white;
+    border: solid 3px black;
+    color: black;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+}
 
 /* footer */
 
