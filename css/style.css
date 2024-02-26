@@ -575,10 +575,7 @@ footer {
 
   @media (max-width: 767px) {
     .grilla {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* Dos columnas */
-      grid-template-rows: repeat(3, auto); /* Tres filas */
-      gap: 10px; /* Espaciado entre las imágenes */
+      display: block; /* Cambiar a disposición de bloque en vista móvil */
     }
   
     .grilla header,
@@ -586,7 +583,7 @@ footer {
     .grilla article,
     .grilla aside {
       width: 100%; /* Ajustar ancho al 100% del contenedor */
-      height: auto; /* Ajustar altura automáticamente */
+      margin-bottom: 5px; /* Espaciado de 5px entre las imágenes */
     }
   }
 /* Index */
