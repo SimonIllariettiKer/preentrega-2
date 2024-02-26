@@ -2,13 +2,14 @@
     font-family: "barak";
     src: url(../recursos-img/BELARAK.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
 }
 
-h1{
-    font-family:barak;
+h1 {
+    font-family: barak;
 }
 
 /* Nav */
@@ -55,7 +56,8 @@ h1 {
     margin: 50px 0 50px 0;
     text-align: center;
 }
-.h1{
+
+.h1 {
     background-color: orange;
     color: white;
 }
@@ -83,7 +85,7 @@ h1 {
     align-items: center;
 }
 
-.sec-main{
+.sec-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +99,7 @@ h1 {
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(3, 33%);
-    grid-template-rows:repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     height: 2fr;
     width: 800px;
     grid-template-areas:
@@ -149,7 +151,7 @@ h1 {
 
 /* All Valley */
 
-.main-all-valley{
+.main-all-valley {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,33 +161,33 @@ h1 {
     height: 200px;
 }
 
-.main-all-valley img{
+.main-all-valley img {
     height: 100px;
     width: 200px;
 }
 
-.videos video{
+.videos video {
     height: 100px;
     width: 200px;
 }
 
 
-.div-torneo{
+.div-torneo {
     text-align: left;
 }
 
-.campeones-all-valley{
+.campeones-all-valley {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.campeones-all-valley img{
+.campeones-all-valley img {
     width: 100px;
     height: 100px;
 }
 
-.li-lawrence{
+.li-lawrence {
     background-color: black;
     border: 4px solid yellow;
     width: 400px;
@@ -196,7 +198,7 @@ h1 {
     padding: 10px;
 }
 
-.li-larusso{
+.li-larusso {
     border: 4px solid orange;
     color: orange;
     width: 400px;
@@ -206,7 +208,7 @@ h1 {
     padding: 10px;
 }
 
-.li-xander{
+.li-xander {
     background-color: blue;
     border: 4px solid red;
     width: 400px;
@@ -217,7 +219,7 @@ h1 {
     padding: 10px;
 }
 
-.li-diaz{
+.li-diaz {
     background-color: black;
     border: 4px solid yellow;
     width: 400px;
@@ -228,7 +230,7 @@ h1 {
     padding: 10px;
 }
 
-.li-hawk{
+.li-hawk {
     border: 4px solid orange;
     color: orange;
     width: 400px;
@@ -238,7 +240,7 @@ h1 {
     padding: 10px;
 }
 
-.li-nichols{
+.li-nichols {
     background-color: black;
     border: 4px solid yellow;
     width: 400px;
@@ -250,35 +252,37 @@ h1 {
 }
 
 /* Personajes */
-.main-personajes{
+.main-personajes {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.grilla-personajes{
+
+.grilla-personajes {
     background-color: green;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(5,1fr);
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
     /* margin: 15px; */
     padding: 15px;
     justify-content: center;
     text-align: center;
 }
 
-.grilla-personajes section{
+.grilla-personajes section {
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 200px;
     margin-left: 15px;
 }
 
-.grilla-personajes img{
-   width: 100px;
-   height: 100px;
-   margin-top: 13px;
+.grilla-personajes img {
+    width: 100px;
+    height: 100px;
+    margin-top: 13px;
 }
 
-.eagle-fang-theme{
+.eagle-fang-theme {
     background-color: red;
     border: 3px solid black;
     color: black;
@@ -288,7 +292,7 @@ h1 {
     padding: 15px 15px 15px 15px;
 }
 
-.cobrakai-theme{
+.cobrakai-theme {
     color: yellow;
     background-color: black;
     border: 3px solid yellow;
@@ -298,7 +302,7 @@ h1 {
     padding: 15px 15px 15px 15px;
 }
 
-.miyagi-do-theme{
+.miyagi-do-theme {
     background-color: white;
     color: orange;
     border: 3px solid orange;
@@ -308,7 +312,7 @@ h1 {
     padding: 15px 15px 15px 15px;
 }
 
-.nothing{
+.nothing {
     background-color: white;
     border: solid 3px black;
     color: black;
@@ -318,16 +322,16 @@ h1 {
 
 /* Dojos */
 
-.main-dojos{
+.main-dojos {
     display: flex;
     justify-content: space-between;
 }
 
-.main-dojos h3{
+.main-dojos h3 {
     margin-top: 32px;
 }
 
-.main-dojos .section-cobrakai-dojo{
+.main-dojos .section-cobrakai-dojo {
     width: 30%;
     height: 1000px;
     margin: 20px;
@@ -339,7 +343,7 @@ h1 {
     justify-content: center;
 }
 
-.main-dojos .section-miyagi-do-dojo{
+.main-dojos .section-miyagi-do-dojo {
     width: 30%;
     height: 1000px;
     margin: 20px;
@@ -351,7 +355,7 @@ h1 {
     justify-content: center;
 }
 
-.main-dojos .section-eagle-fang-dojo{
+.main-dojos .section-eagle-fang-dojo {
     width: 30%;
     height: 1000px;
     margin: 20px;
@@ -363,49 +367,49 @@ h1 {
     justify-content: center;
 }
 
-.main-dojos .section-cobrakai-dojo img{
+.main-dojos .section-cobrakai-dojo img {
     width: 150px;
     height: 150px;
     margin-top: 50px;
     margin-bottom: 150px;
 }
 
-.main-dojos .section-miyagi-do-dojo img{
+.main-dojos .section-miyagi-do-dojo img {
     width: 150px;
     height: 150px;
     margin-top: 50px;
     margin-bottom: 150px;
 }
 
-.main-dojos .section-eagle-fang-dojo img{
+.main-dojos .section-eagle-fang-dojo img {
     width: 150px;
     height: 150px;
     margin-top: 50px;
     margin-bottom: 150px;
-    
+
 }
 
-.ul-eaglefang li{
+.ul-eaglefang li {
     list-style: none;
 }
 
-.ul-cobrakai li{
+.ul-cobrakai li {
     list-style: none;
 }
 
-.ul-miyagido li{
+.ul-miyagido li {
     list-style: none;
 }
 
 /* Rivalidades */
 
-.main-rivalidades{
+.main-rivalidades {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-rivalidades-grilla{
+.main-rivalidades-grilla {
     background-color: green;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -414,20 +418,20 @@ h1 {
     text-align: center;
 }
 
-.main-grilla-rivalidades section{
+.main-grilla-rivalidades section {
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 200px;
     margin-left: 15px;
 }
 
-.main-rivalidades-grilla img{
+.main-rivalidades-grilla img {
     height: 100px;
     width: 200px;
-    
+
 }
 
-h4{
+h4 {
     color: black;
     font-size: 16px;
 }
@@ -447,14 +451,34 @@ footer {
 
 /* Media queri */
 
-@media (min-width:480px){
+@media (max-width:767){
     .grilla-personajes{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width:480px){
-    .grilla-personajes
-    grid-template-columns: repeat(1, 1fr);
-}
+/* @media (max-width:400px){
+    .navbar ul{
+        width: 100vw;
+        justify-content: center;
+    }
+} */
+
+/* @media (min-width){
+    .main-personajes{
+
+    }
+} */
+
+/* @media (max-width:480px) {
+    .grilla-personajes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+/* @media (min-width:700px){
+    .main-personajes{
+
+    }
+} */
