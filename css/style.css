@@ -261,7 +261,8 @@ h1 {
 
 .grilla-personajes {
     background-color: green;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     /* grid-template-columns: repeat(5,1fr); */
     grid-template-columns: 20% 20% 20% 20% 20%;
     /* margin: 15px; */
@@ -269,6 +270,33 @@ h1 {
     justify-content: center;
     text-align: center;
 }
+
+.personajes-section{
+    width: 100%;
+     max-width: 400px; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.personajes-section img{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 
 .grilla-personajes section {
     margin-top: 15px;
@@ -462,42 +490,12 @@ footer {
 
 /* Media queri */
 
-@media (max-width:767){
-    .grilla-personajes{
-        display: inline-block;
-    }
-}
-
-@media (min-width:768){
-    .grilla-personajes{
-        display: inline-block;
-    }
-}
-
-
-
-/* @media (max-width:400px){
-    .navbar ul{
-        width: 100vw;
-        justify-content: center;
-    }
-} */
-
-/* @media (min-width){
-    .main-personajes{
-
-    }
-} */
-
-/* @media (max-width:480px) {
+@media screen and (min-width: 768px) {
     .grilla-personajes {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
     }
-} */
 
-/* @media (min-width:700px){
-    .main-personajes{
-
+    .personaje-section {
+        width: 48%; /* Dos columnas en pantallas más grandes */
     }
-} */
+}
