@@ -363,8 +363,14 @@ h1 {
 
 .main-dojos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
+  }
+
+  .main-dojos section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
 .main-dojos h3 {
     margin-top: 32px;
@@ -518,3 +524,15 @@ footer {
         box-sizing: border-box;
     }
 }
+
+/* Rivalidades */
+/* Dojos */
+
+@media (min-width: 768px) {
+    .main-dojos section {
+      width: 48%;
+    }
+  }
+
+/* Dojos */
+
