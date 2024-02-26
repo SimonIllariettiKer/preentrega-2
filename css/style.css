@@ -582,8 +582,8 @@ footer {
     .grilla section,
     .grilla article,
     .grilla aside {
-      width: 100%; /* Ajustar ancho al 100% del contenedor */
-      margin-bottom: 5px; /* Espaciado de 5px entre las imágenes */
+      width: 100%; 
+      margin-bottom: 5px; 
     }
   }
 /* Index */
