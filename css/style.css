@@ -490,12 +490,30 @@ footer {
 
 /* Media queri */
 
-@media screen and (min-width: 768px) {
+/* Personajes */
+
+@media (min-width: 768px) {
     .grilla-personajes {
         justify-content: space-between;
     }
 
     .personaje-section {
-        width: 48%; /* Dos columnas en pantallas más grandes */
+        width: 48%; 
     }
 }
+
+/* Personajes */
+/* Rivalidades */
+
+
+/* Estilos para pantallas más pequeñas (menos de 768px) */
+
+@media (max-width: 767px) {
+    .main-rivalidades-grilla section {
+        width: 100%; /* Una columna en pantallas más pequeñas */
+        box-sizing: border-box;
+        margin-bottom: 20px; /* Espacio entre las secciones */
+    }
+}
+
+/* Rivalidades */
