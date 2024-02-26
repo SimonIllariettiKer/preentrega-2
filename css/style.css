@@ -447,9 +447,14 @@ footer {
 
 /* Media queri */
 
-@media (max-width:480px){
-    .main-personajes{
+@media (min-width:480px){
+    .grilla-personajes{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
+}
+
+@media (max-width:480px){
+    .grilla-personajes
+    grid-template-columns: repeat(1, 1fr);
 }
